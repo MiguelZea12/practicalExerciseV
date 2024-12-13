@@ -1,13 +1,13 @@
-from src.data_loader import load_data
-from src.visualization import create_visualizations
+from src.cargar_datos import cargar_datos
+from src.visualizacion import crear_visualizaciones
 
 def main():
     # Cargar datos
-    file_path = 'mnt/data/Cleaned_Student_Depression_Dataset_for_Analysis.csv'
-    df = load_data(file_path)
+    ruta_archivo = 'mnt/data/Cleaned_Student_Depression_Dataset_for_Analysis.csv'
+    df = cargar_datos(ruta_archivo)
 
     # Crear visualizaciones
-    create_visualizations(df)
+    crear_visualizaciones(df)
 
 if __name__ == "__main__":
     main()

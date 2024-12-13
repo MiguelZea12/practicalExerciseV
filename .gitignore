@@ -1,0 +1,21 @@
+# Ignorar archivos de compilación de Python
+__pycache__/
+*.py[cod]
+
+# Ignorar la carpeta del entorno virtual
+venv/
+ENV/
+env/
+.venv/
+
+# Archivos de configuración de Python
+*.pyo
+*.pyd
+
+# Archivos de configuración de IDEs
+.vscode/
+.idea/
+
+# Archivos de configuración de entornos virtuales
+pip-log.txt
+pip-delete-this-directory.txt
